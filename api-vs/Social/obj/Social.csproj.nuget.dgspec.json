@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\WorkSpace\\api\\api-vs\\Social\\Social.csproj": {}
+    "E:\\WorkSpace\\api\\SociaNetworkApi\\api-vs\\Social\\Social.csproj": {}
   },
   "projects": {
-    "E:\\WorkSpace\\api\\api-vs\\Social\\Social.csproj": {
+    "E:\\WorkSpace\\api\\SociaNetworkApi\\api-vs\\Social\\Social.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\WorkSpace\\api\\api-vs\\Social\\Social.csproj",
+        "projectUniqueName": "E:\\WorkSpace\\api\\SociaNetworkApi\\api-vs\\Social\\Social.csproj",
         "projectName": "Social",
-        "projectPath": "E:\\WorkSpace\\api\\api-vs\\Social\\Social.csproj",
+        "projectPath": "E:\\WorkSpace\\api\\SociaNetworkApi\\api-vs\\Social\\Social.csproj",
         "packagesPath": "C:\\Users\\lehoa\\.nuget\\packages\\",
-        "outputPath": "E:\\WorkSpace\\api\\api-vs\\Social\\obj\\",
+        "outputPath": "E:\\WorkSpace\\api\\SociaNetworkApi\\api-vs\\Social\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lehoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,14 +46,14 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[5.0.1, )",
               "noWarn": [
                 "NU1605"
               ]
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[5.0.1, )",
               "noWarn": [
                 "NU1605"
               ]
@@ -64,17 +64,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -82,13 +82,9 @@
               "target": "Package",
               "version": "[3.1.1, )"
             },
-            "MySql.Data": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[8.0.22, )"
-            },
-            "MySql.Data.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[3.1.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
